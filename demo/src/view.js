@@ -14,8 +14,8 @@ export default model => (
 		<Router model={model} routeChanged={handleRouteChanged}>
 			<Route path="/" exact view={Index} />
 			<Route path="/muve" view={Muve} />
-			<Route path="/muve-router" exact view={MuveRouter} />
-			<Route path="/microenvi" exact view={Microenvi} />
+			<Route path="/muve-router" view={MuveRouter} />
+			<Route path="/microenvi" view={Microenvi} />
 		</Router>
 	</main>
 );
