@@ -1,5 +1,5 @@
 # muve-router
-Simple client side router for muve
+Simple client side router for [muve](https://github.com/fwilkerson/muve)
 
 ## Quick start
 
