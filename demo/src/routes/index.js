@@ -1,5 +1,9 @@
 import {h} from 'muve'
 
 export default model => (
-	<h2>Hello Index!</h2>
+	<section class="row">
+		<div class="eight columns offset-by-two">
+			<h4>A little about me</h4>
+		</div>
+	</section>
 );

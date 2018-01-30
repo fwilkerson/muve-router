@@ -34,7 +34,7 @@ export function createRouterActions(getModel, setModel) {
         route: event.state || {path: window.location.pathname},
         activeView: null,
       });
-      if (activeView.didUnmount) {
+      if (activeView && activeView.didUnmount) {
         activeView.didUnmount();
       }
     },
