@@ -1,0 +1,22 @@
+ul.tabs {
+	list-style: none;
+}
+
+ul.tabs li {
+	display: inline;
+	margin-right: 1.5rem;
+}
+
+ul.tabs li a.button {
+	border: none;
+	border-bottom: .3rem solid #bbb;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+ul.tabs li a.active.button {
+	border-bottom-color: #33C3F0;
+	-webkit-transition: border-bottom-color 700ms ease-out;
+	-moz-transition: border-bottom-color 700ms ease-out;
+	transition: border-bottom-color 700ms ease-out;
+}
