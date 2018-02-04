@@ -1,7 +1,23 @@
 {
   "name": "muve-router",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/muve-router.js",
+  "module": "dist/muve-router.es.js",
+  "author": "Frank A. Wilkerson",
   "repository": "https://github.com/fwilkerson/muve-router.git",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepare": "xo && microbundle -f cjs,es"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "microbundle": "^0.4.3",
+    "prettier": "^1.10.2",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "envs": ["browser"],
+    "extends": "prettier",
+    "ignores": ["demo/**"]
+  }
 }
